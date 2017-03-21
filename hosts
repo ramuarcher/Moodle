@@ -1,0 +1,2 @@
+[vm]
+ansible-vm-test2 vm_host=192.168.122.122

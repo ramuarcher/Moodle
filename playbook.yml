@@ -1,0 +1,8 @@
+- hosts: vm
+  gather_facts: False
+  remote_user: ramu
+  become: yes
+  
+  tasks: 
+    - name: Apt Update
+      apt: update_cache=yes
